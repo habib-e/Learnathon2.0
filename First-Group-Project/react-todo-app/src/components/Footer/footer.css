@@ -1,0 +1,19 @@
+.footer-main{
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.footer-container{
+    display : grid;
+    max-width: 90%;
+    margin : 0 auto;
+    place-items: center;
+    
+    /* justify-content: center;
+    align-items: center; */
+    padding: 20px 0;
+    
+}
