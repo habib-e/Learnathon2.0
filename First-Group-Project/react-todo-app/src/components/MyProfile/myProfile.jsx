@@ -1,16 +1,4 @@
-// import React from 'react'
 
-// export const MyProfile = () => {
-//   return (
-//     <div>
-//         <div>
-//             <h1>Welcome to My Profile</h1>
-
-//         </div>
-//     </div>
-//     // <div>Welcome Profile</div>
-//   )
-// }
 
 import { useAuth0 } from "@auth0/auth0-react";
 import React from "react";

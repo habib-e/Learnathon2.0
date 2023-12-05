@@ -12,13 +12,13 @@ export const TodoStatics = () => {
  
 			<div className="flex justify-between text-2xl pt-4">
 				<div className="text-blue-300">
-					Total Task: {allTodosCount(user.name)}
+					Tasks: {allTodosCount(user.name)}
 				</div>
 				<div className="text-green-300">
-					Completed Task: {getCompletedTodos(user.name).length}
+					Done: {getCompletedTodos(user.name).length}
 				</div>
 				<div className="text-red-300">
-					Due Task: {getDueTodos(user.name).length}
+					Due: {getDueTodos(user.name).length}
 				</div>
 			</div>
   )

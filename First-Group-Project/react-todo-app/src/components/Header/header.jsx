@@ -9,7 +9,7 @@ export default function Header() {
                 <h1 className='font-extrabold text-3xl' >Leanathon2.0</h1>
             </div>
             <div className='header-right'>
-              <Link to='/dashboard' className='header-link hover: bg-blue-700'>
+              <Link to='/dashboard' className='header-link'>
                 <p>Dashboard</p>
               </Link>
                   <Link to='/todo'>
